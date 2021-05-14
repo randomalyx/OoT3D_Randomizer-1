@@ -12,9 +12,9 @@ namespace Hints {
   // - OoT Randomizer
 
   HintText NoHintText   = HintText::Exclude({Text{"","",""}});
-  HintText Prefix       = HintText::Exclude({Text{"They say that ", /*french*/"", /*spanish*/""}});
+  HintText Prefix       = HintText::Exclude({Text{"They say that ", /*french*/"", /*spanish*/"Dicen que "}});
   HintText WayOfTheHero = HintText::Exclude({Text{" is on the way of the hero.",  /*french*/"", /*spanish*/""}});
-  HintText Plundering   = HintText::Exclude({Text{"plundering ", /*french*/"", /*spanish*/""}});
+  HintText Plundering   = HintText::Exclude({Text{"plundering ", /*french*/"", /*spanish*/"robar "}});
   HintText Foolish      = HintText::Exclude({Text{" is a foolish choice.", /*french*/"", /*spanish*/""}});
 
   /*--------------------------
@@ -24,7 +24,7 @@ namespace Hints {
   HintText TriforcePiece = HintText::Item({
                        //obscure text
                        Text{"a triumph fork",  /*french*/"", /*spanish*/""},
-                       Text{"cheese",          /*french*/"", /*spanish*/""},
+                       Text{"cheese",          /*french*/"", /*spanish*/"queso"},
                        Text{"a gold fragment", /*french*/"", /*spanish*/""},
                      },
                        //clear text
@@ -63,7 +63,7 @@ namespace Hints {
 
   HintText Boomerang = HintText::Item({
                        //obscure text
-                       Text{"a banana",       /*french*/"", /*spanish*/""},
+                       Text{"a banana",       /*french*/"", /*spanish*/"un plátano"},
                        Text{"a stun stick",   /*french*/"", /*spanish*/""},
                        Text{"a yellow angle", /*french*/"", /*spanish*/""},
                      },
@@ -286,7 +286,7 @@ namespace Hints {
 
   HintText ProgressiveOcarina = HintText::Item({
                        //obscure text
-                       Text{"a flute",       /*french*/"", /*spanish*/""},
+                       Text{"a flute",       /*french*/"", /*spanish*/"una flauta"},
                        Text{"a music maker", /*french*/"", /*spanish*/""},
                      },
                        //clear text
@@ -592,7 +592,7 @@ namespace Hints {
 
   HintText ProgressiveNutCapacity = HintText::Item({
                        //obscure text
-                       Text{"more nuts",         /*french*/"", /*spanish*/""},
+                       Text{"more nuts",         /*french*/"", /*spanish*/"más nueces"},
                        Text{"flashbang storage", /*french*/"", /*spanish*/""},
                      },
                        //clear text
@@ -654,7 +654,7 @@ namespace Hints {
 
   HintText GreenRupee = HintText::Item({
                        //obscure text
-                       Text{"a unique coin", /*french*/"", /*spanish*/""},
+                       Text{"a unique coin", /*french*/"", /*spanish*/"una moneda única"},
                        Text{"a penny",       /*french*/"", /*spanish*/""},
                        Text{"a green gem",   /*french*/"", /*spanish*/""},
                      },
@@ -664,7 +664,7 @@ namespace Hints {
 
   HintText BlueRupee = HintText::Item({
                        //obscure text
-                       Text{"a common coin", /*french*/"", /*spanish*/""},
+                       Text{"a common coin", /*french*/"", /*spanish*/"una moneda común"},
                        Text{"a blue gem",    /*french*/"", /*spanish*/""},
                      },
                        //clear text
@@ -684,7 +684,7 @@ namespace Hints {
                        //obscure text
                        Text{"big bucks",    /*french*/"", /*spanish*/""},
                        Text{"a purple gem", /*french*/"", /*spanish*/""},
-                       Text{"wealth",       /*french*/"", /*spanish*/""},
+                       Text{"wealth",       /*french*/"", /*spanish*/"riqueza"},
                      },
                        //clear text
                        Text{"a Purple Rupee", /*french*/"", /*spanish*/""}
@@ -695,7 +695,7 @@ namespace Hints {
                        Text{"a juicy jackpot", /*french*/"", /*spanish*/""},
                        Text{"a yellow gem",    /*french*/"", /*spanish*/""},
                        Text{"a giant gem",     /*french*/"", /*spanish*/""},
-                       Text{"great wealth",    /*french*/"", /*spanish*/""},
+                       Text{"great wealth",    /*french*/"", /*spanish*/"gran riqueza"},
                      },
                        //clear text
                        Text{"a Huge Rupee", /*french*/"", /*spanish*/""}
